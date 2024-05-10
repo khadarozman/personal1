@@ -1,0 +1,244 @@
+body {
+    background-color: rgba(184, 220, 208, 0.455);
+    margin: 0;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firts-Header {
+    position: absolute;
+    right: 80px;
+    margin: 5px;
+    img {
+        height: 30px;
+        width: 30px;
+        
+    }
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.one{
+    background-color: #00224D;
+    text-align: center;
+    margin: 20px;
+    img{
+        height: 180px;
+        width: 150px;
+    }
+    .mouse {
+        width: 120px;
+        height: 140px;
+        margin: 5px;
+     
+     
+     }
+    
+    h1 {
+        font-size: 30px;
+    }
+    .image {
+        position: absolute;
+        top: 130px;
+        right: 60px;
+        opacity: 25%;
+    }
+    .image1 {
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        opacity: 25%;
+    }
+    .inputs {
+        background-color: aquamarine;
+        width: 150px;
+        height: 28px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border-style: dotted;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin: 20px;
+       
+
+    }
+    .inputs:hover {
+        background-color: #5D0E41;
+    }
+
+}
+.displays {
+    margin-top: 7px;
+    position: relative;
+    bottom: 20px;
+ }
+.inputs1 {
+    width: 170px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    right: 140px;
+    margin: 7px;
+}
+
+  li {
+    display: inline-block;
+    margin: 10px;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ nav li a {
+    color: wheat;
+    text-decoration-line: none;
+}
+ li.active {
+    border-radius: 5px;
+    background-color: rgb(221, 66, 0);
+ }
+ li:hover {
+    border-radius: 5px;
+    animation-duration: .5s;
+    background-color: rgb(221, 66, 0);
+ }
+.Menus {
+     position: fixed;
+     background-color:  #5D0E41;
+     opacity: 60%;
+     display: block;
+     transition: .5s;
+    right: 150px;
+    top: 60px; 
+    border-radius: 40px;
+}
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding-top: 5px;
+}
+label{
+    margin: 18px;    
+}
+
+.menu{
+    background-color: #5D0E41 ;
+    height: 105px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px   gray;
+}
+
+.colors {
+    background-color: wheat;
+    height: 30vb;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    img {
+        width: 250px;
+        height: 19vb;
+        position: relative;
+        left: 15px;
+        top: -10px;
+        border-radius: 4px;
+        margin-top: 0;
+    }
+    p{
+        position:relative ;
+        top: -25px;
+    }
+    p a {
+        color: black;
+    }
+}
+.colors1 {
+    background-color: wheat;
+    height: 30vb;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    img {
+        width: 250px;
+        height: 19vb;
+        position: relative;
+        left: 15px;
+        top: -10px;
+        border-radius: 4px;
+        margin-top: 0;
+    }
+    p{
+        position:relative ;
+        top: -25px;
+    }
+    p a {
+        color: black;
+    }
+}
+.colors2 {
+    background-color:wheat;
+    height: 30vb;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    img {
+        width: 250px;
+        height: 19vb;
+        position: relative;
+        left: 15px;
+        top: -10px;
+        border-radius: 4px;
+        margin-top: 0;
+    }
+    p{
+        position:relative ;
+        top: -25px;
+    }
+    p a {
+        color: black;
+    }
+}
+.colors3 {
+    background-color:wheat;
+    height: 30vb;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    img {
+        width: 250px;
+        height: 19vb;
+        position: relative;
+        left: 15px;
+        top: -10px;
+        border-radius: 4px;
+        margin-top: 0; 
+    }
+    p{
+        position:relative ;
+        top: -25px;
+    }
+    p a {
+        color: black;
+    }
+}
+.col {
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    height: 40vb;
+    box-shadow: 2px 2px 3px 3px grey;
+    border: black;
+    
+}
+
